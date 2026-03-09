@@ -13,6 +13,7 @@ def home():
 def about():
     return "This is the about page."
 
+from routes import *
 
 if __name__ == '__main__':
     app.run(debug=True)
